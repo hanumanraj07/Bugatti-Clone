@@ -1,3 +1,5 @@
+YouTube Video Link: https://youtu.be/__XCbRVxfyI?si=-SjiBLBTvC98d98-
+
 Bugatti Website Clone – Luxury Automotive UI (Educational Project)
 
 A modern, responsive frontend clone of the official Bugatti website. This project recreates the premium design, car showcase sections, animations, and luxury brand aesthetics used by Bugatti’s online presence.
