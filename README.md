@@ -1,4 +1,5 @@
 YouTube Video Link: https://youtu.be/__XCbRVxfyI?si=-SjiBLBTvC98d98-
+LinkedIn Profile: www.linkedin.com/in/hanuman-rajpurohit-203880383
 
 Bugatti Website Clone – Luxury Automotive UI (Educational Project)
 
