@@ -1,0 +1,181 @@
+/* Bolide Page Specific Styles */
+
+/* Vision Section */
+.vision {
+  position: relative;
+}
+
+.vision-video {
+  width: 100%;
+}
+
+.vision-text {
+  position: absolute;
+  z-index: 1;
+  top: 25vw;
+  left: 5vw;
+  font-size: 1vw;
+}
+
+.vision-text h1 {
+  font-size: 3vw;
+  margin-bottom: 1vw;
+}
+
+/* Performance Container */
+.performance-container h1 {
+  font-size: 4vw;
+  margin: 2vw;
+}
+
+.spec-table {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  border: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+}
+
+.spec-row {
+  display: flex;
+  gap: 25vw;
+  align-items: baseline;
+  padding: 1.5vw 2vw;
+}
+
+.spec-label {
+  font-size: 1.2vw;
+  text-transform: uppercase;
+  color: #888;
+  font-family: ui-monospace, monospace;
+  flex: 0 0 20vw;
+}
+
+.spec-value {
+  font-size: 5vw;
+  font-weight: 300;
+}
+
+.spec-table hr {
+  border: 0;
+  border-top: 0.1px solid #333;
+  margin: 0;
+}
+
+/* Aerodynamics */
+.aerodynamics {
+  position: relative;
+}
+
+.aerodynamics-video {
+  width: 100%;
+}
+
+.aerodynamics-text {
+  position: absolute;
+  z-index: 1;
+  font-size: 1vw;
+  top: 25vw;
+  right: 5vw;
+}
+
+.aerodynamics-text h1 {
+  font-size: 3vw;
+  margin-bottom: 1vw;
+}
+
+/* Interior Sections */
+.intirior1,
+.intirior2,
+.intirior3,
+.intirior4 {
+  width: 100%;
+  position: relative;
+}
+
+.intirior1 img,
+.intirior2 img,
+.intirior3 img,
+.intirior4 img,
+.intirior1 video,
+.intirior2 video,
+.intirior3 video,
+.intirior4 video {
+  width: 100%;
+}
+
+.intirior1-text {
+  position: absolute;
+  z-index: 10;
+  top: 25vw;
+  font-size: 1vw;
+  right: 5vw;
+}
+
+.intirior2-text {
+  position: absolute;
+  z-index: 10;
+  top: 35vw;
+  font-size: 1vw;
+  left: 5vw;
+}
+
+.intirior3-text {
+  position: absolute;
+  z-index: 10;
+  top: 30vw;
+  font-size: 1vw;
+  right: 5vw;
+}
+
+.intirior4-text {
+  position: absolute;
+  z-index: 10;
+  top: 25vw;
+  font-size: 1vw;
+  left: 5vw;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+  .vision-text,
+  .aerodynamics-text,
+  .intirior1-text,
+  .intirior2-text,
+  .intirior3-text,
+  .intirior4-text {
+    position: static;
+    padding: 24px;
+    font-size: 1rem;
+  }
+
+  .vision-text h1,
+  .aerodynamics-text h1 {
+    font-size: 2rem;
+  }
+
+  .performance-container h1 {
+    font-size: 2rem;
+    margin: 16px;
+  }
+
+  .spec-row {
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px;
+  }
+
+  .spec-label {
+    font-size: 0.9rem;
+    flex: none;
+  }
+
+  .spec-value {
+    font-size: 2.5rem;
+  }
+
+  .spec-table {
+    margin: 16px;
+  }
+}
